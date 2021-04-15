@@ -1,7 +1,10 @@
 #include<stdio.h>
 struct Student
 {
-char Sname[100]; int scores[100]; char grade; float result;
+char Sname[100]; 
+int scores[100];
+char grade;
+float result;
 };
 typedef struct Student student;
 struct GradeBook
